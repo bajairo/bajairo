@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	//Declaración de constantes
@@ -145,14 +147,4 @@ func main() {
 	fmt.Println("hola mundo")
 	fmt.Println("hola mundo 2")
 	fmt.Println("hola mundo 3")
-
-	func normalFuntion(){
-		fmt.Println("hola mundo")
-	}
-
-	func main(){
-		normalFuntion()
-	}
-		
-	}
 }
