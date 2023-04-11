@@ -15,11 +15,14 @@ func tripleArgument(a, b int, c string) {
 	fmt.Println(a, b, c)
 }
 
-// si necesitamos que la funcion retorne un valor
+// si necesitamos que la funcion retorne un valor, o retorene 2 o mas valores le decimos que nos de un
+//doblereturn la forma de agregarlo es en el mismo orden en el que esta arriba
 
 func returnValue(a int) int {
 	return a * 2
 }
+
+func doubleReturn()
 
 func main() {
 	normalFunction("Hola mundo")
