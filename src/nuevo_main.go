@@ -16,13 +16,21 @@ func tripleArgument(a, b int, c string) {
 }
 
 // si necesitamos que la funcion retorne un valor, o retorene 2 o mas valores le decimos que nos de un
-//doblereturn la forma de agregarlo es en el mismo orden en el que esta arriba
+//doblereturn la forma de agregarlo es con un (a int) agregarlo dentro de un parentesis y decimos que van dos valores enteros
+// y agregarlo en el mismo orden en el que esta arriba y en el segundo que retorne el * 2
+//la forma de recibirlo es en el mismo orden
+// si solo necesitamos un valor se le coloca _ porque go pide que se use lo que se delcara
+// y descarta ese valor y solo toma el value 1 ejemplo
+//value1, value2 := doubleReturn(2)
+//fmt.Println("value1 y value2:", value1, value2)
 
 func returnValue(a int) int {
 	return a * 2
 }
 
-func doubleReturn()
+func doubleReturn(a int) (c, d int) {
+	return a, a * 2
+}
 
 func main() {
 	normalFunction("Hola mundo")
@@ -30,4 +38,7 @@ func main() {
 
 	value := returnValue(2)
 	fmt.Println("value:", value)
+
+	value1, _ := doubleReturn(2)
+	fmt.Println("value1", value1)
 }
