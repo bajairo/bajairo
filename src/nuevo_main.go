@@ -41,10 +41,10 @@ func main() {
 
 	value1, _ := doubleReturn(2)
 	fmt.Println("value1", value1)
+
+	//reto llevar las funciones aquellos algoritmos que  utilce para calcular las areas
+
+	//Docuemntacion y como implementar las de terceros y aprender a leer codigo go https://pkg.go.dev/  https://pkg.go.dev/std
+
+	// cilo o tareas repetitivas For condicional
 }
-
-//reto llevar las funciones aquellos algoritmos que  utilce para calcular las areas
-
-//Docuemntacion y como implementar las de terceros y aprender a leer codigo go https://pkg.go.dev/  https://pkg.go.dev/std
-
-// cilo o tareas repetitivas For condicional
