@@ -68,5 +68,6 @@ func main() {
 	//myBool :=  true
 	//fmt.Println(!myBool) // Esto retornará false
 	//El condicional if
+	//https://golang.org/pkg/strconv/
 
 }
